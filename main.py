@@ -6,7 +6,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.responses import JSONResponse
 
 ACCESS_TOKEN = os.environ.get("ACCESS_TOKEN")
-GITHUB_CSV_URL = "https://api.github.com/repos/danielrayappa2210/TDS-Project-2---datastore/contents/q-fastapi.csv"
+GITHUB_CSV_URL = "https://api.github.com/repos/lisamiranda456/tds-project2-datastore/contents/q-fastapi.csv"
 
 app = FastAPI()
 
